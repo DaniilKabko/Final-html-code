@@ -1,0 +1,17 @@
+.shared-footer-container {
+  color: var(--light-color);
+  background-color: var(--dark-color);
+  padding: 1.5em;
+}
+
+.shared-footer-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-count: 3;
+}
+
+.font-footer {
+  color: var(--text-footer-color);
+}

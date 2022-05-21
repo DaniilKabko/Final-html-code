@@ -1,0 +1,83 @@
+:root {
+  --accent-color: #cbd3dd00;
+  --header-text: #65c466;
+  --light-color: #ffffff;
+  --dark-color: #243246;
+  --text-color: #414141;
+  --text-footer-color: #959aa6;
+  --row-visible-count: 2;
+  font-size: 14px;
+  font-family: "Mulish";
+}
+
+.text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.shared-font {
+  font-style: italic;
+}
+.shared-main-header {
+  font-family: "Trajan Pro 3";
+  font-weight: 400;
+  font-size: 1.5em;
+  color: var(--header-text);
+  padding: 1.5em;
+}
+
+.shared-description {
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1em;
+  color: var(--text-color);
+}
+
+.shared-content-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 17.63px;
+  line-height: 20.66px;
+  color: var(--light-color);
+}
+
+.shared-content {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 11.17px;
+  line-height: 13.09px;
+  color: var(--light-color);
+}
+
+.text-align-center {
+  text-align: center;
+}
+.text-align-end {
+  text-align: end;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper-main-content {
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  :root {
+    font-size: 16px;
+  }
+}
